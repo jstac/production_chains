@@ -1,8 +1,13 @@
 r"""
+
 Computes equilibrium prices and actions for the
 functional equation
 
     p(s) = min_{k \in \NN, t <= s} { delta k p(t/k) + c(s - t) + beta k }
+
+@author: John Stachurski
+
+@date: Mon Oct 10 12:59:24 JST 2016
 
 """
 

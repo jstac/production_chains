@@ -2,6 +2,10 @@
 For a given parameterization of the model, use recusion to 
 build a dictionary that gives the structure of the resulting network.
 
+@author: John Stachurski
+
+@date: Mon Oct 10 12:59:24 JST 2016
+
 """
 
 from endog_k_price import RP
