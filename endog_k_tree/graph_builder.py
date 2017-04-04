@@ -47,7 +47,8 @@ def build_dict(ps, verbose=False, tol=1e-2):
         if verbose == True:
             print("current_firm_num={}".format(current_firm_num))
             print("level={}".format(level))
-            print("k={}".format(k_star))    
+            print("k={}".format(k_star)) 
+            print("ell={}".format(ell_star)) 
             print("first_firm_at_current_level={}".format(first_firm_at_level))
             print("num_firms_at_this_level={}".format(num_firms_at_this_level))
             print("")
