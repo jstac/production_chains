@@ -22,13 +22,13 @@ ax.set_xticks((0.0, 0.25, 0.75, 1.0))
 
 ps.delta = 1.02
 y_vals = [ps.ell_star(s) for s in ps.grid]
-ax.plot(ps.grid, y_vals, 'k--', lw=2, alpha=0.65, label="$\lambda^*$ when $\delta = 1.02$")
-ax.set_xlabel("production stage", fontsize=16)
-ax.set_ylabel("range of tasks", fontsize=16)
+ax.plot(ps.grid, y_vals, 'k--', lw=2, alpha=0.65, label="$\ell^*$ when $\delta = 1.02$")
+ax.set_xlabel("production stage", fontsize=12)
+ax.set_ylabel("range of tasks", fontsize=12)
 
 ps.delta = 1.2
 y_vals = [ps.ell_star(s) for s in ps.grid]
-ax.plot(ps.grid, y_vals, 'k-', lw=2, alpha=0.65, label="$\lambda^*$ when $\delta = 1.2$")
+ax.plot(ps.grid, y_vals, 'k-', lw=2, alpha=0.65, label="$\ell^*$ when $\delta = 1.2$")
 
 ax.legend(loc=0)
 plt.show()
